@@ -87,6 +87,3 @@ Each family is designed for a specific workload:
 EC2 = AWS’s cloud servers. Choose instance type, pricing, security, and launch → then scale and manage as per your workload.
 
 ---
-
-👉 Do you want me to turn this into a **Day 22 PDF (AWS EC2 Basics + Launch + Management + Best Practices)** so your students can keep it as a handout?
-
