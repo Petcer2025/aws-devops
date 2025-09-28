@@ -25,6 +25,46 @@
 
 ---
 
+🛠️ Main VPC Components (Simple Explanation)
+
+VPC → Your private network in AWS (like your own data center).
+
+Subnets → Smaller sections of your VPC (e.g., public subnet for web servers, private subnet for databases).
+
+Each subnet is in one Availability Zone.
+
+IP Addressing → You decide the IP range (IPv4/IPv6) for your VPC and subnets.
+
+NACL (Network ACL) → Subnet-level firewall (stateless → needs inbound & outbound rules).
+
+Example: Block all traffic from a suspicious IP range.
+
+Security Groups → Instance-level firewall (stateful → if you allow inbound, return traffic is auto allowed).
+
+Example: Allow SSH (22) or HTTP (80) to a specific EC2.
+
+Routing (Route Tables) → Decides where traffic goes.
+
+Example: Internet traffic → Internet Gateway.
+
+Gateways & Endpoints →
+
+Internet Gateway (IGW): Public internet access.
+
+NAT Gateway: Private subnet → internet (outbound only).
+
+VPC Endpoint: Private connection to AWS services (no internet needed).
+
+VPC Peering → Connect two VPCs so they can talk to each other.
+
+Transit Gateway → Central hub to connect multiple VPCs and networks.
+
+Traffic Mirroring → Copy network traffic for monitoring/security.
+
+Flow Logs → Logs all network traffic going in/out of your VPC (for troubleshooting & auditing).
+
+VPN Connection → Connect your AWS VPC to your on-premise network securely.
+
 ## 📌 Example
 
 Imagine a house 🏠 (VPC):
