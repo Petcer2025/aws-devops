@@ -5,6 +5,8 @@
 * It’s like having your own **mini-internet** inside the bigger internet.
 * You decide how resources (servers, databases, storage) connect and talk.
 
+<img width="521" height="311" alt="image" src="https://github.com/user-attachments/assets/3c4e814f-ddac-4eec-8d27-15941a04d856" />
+
 ---
 
 ## 🛠️ **Key Points**
@@ -33,8 +35,5 @@ Imagine a house 🏠 (VPC):
 
 ---
 
-💡 **In simple words:**
-VPC = Your **private, secure, customizable network** in AWS where you place all your cloud resources.
 
----
 
