@@ -25,55 +25,55 @@
 
 ---
 
-🛠️ Main VPC Components (Simple Explanation)
+## 🛠️ **Main VPC Components (Simple Explanation)**
 
-VPC → Your private network in AWS (like your own data center).
+* **VPC** → Your private network in AWS (like your own data center).
 
-Subnets → Smaller sections of your VPC (e.g., public subnet for web servers, private subnet for databases).
+* **Subnets** → Smaller sections of your VPC (e.g., public subnet for web servers, private subnet for databases).
 
-Each subnet is in one Availability Zone.
+  * Each subnet is in **one Availability Zone**.
 
-IP Addressing → You decide the IP range (IPv4/IPv6) for your VPC and subnets.
+* **IP Addressing** → You decide the IP range (IPv4/IPv6) for your VPC and subnets.
 
-NACL (Network ACL) → Subnet-level firewall (stateless → needs inbound & outbound rules).
+* **NACL (Network ACL)** → Subnet-level firewall (stateless → needs inbound & outbound rules).
 
-Example: Block all traffic from a suspicious IP range.
+  * Example: Block all traffic from a suspicious IP range.
 
-Security Groups → Instance-level firewall (stateful → if you allow inbound, return traffic is auto allowed).
+* **Security Groups** → Instance-level firewall (stateful → if you allow inbound, return traffic is auto allowed).
 
-Example: Allow SSH (22) or HTTP (80) to a specific EC2.
+  * Example: Allow SSH (22) or HTTP (80) to a specific EC2.
 
-Routing (Route Tables) → Decides where traffic goes.
+* **Routing (Route Tables)** → Decides where traffic goes.
 
-Example: Internet traffic → Internet Gateway.
+  * Example: Internet traffic → Internet Gateway.
 
-Gateways & Endpoints →
+* **Gateways & Endpoints** →
 
-Internet Gateway (IGW): Public internet access.
+  * **Internet Gateway (IGW):** Public internet access.
+  * **NAT Gateway:** Private subnet → internet (outbound only).
+  * **VPC Endpoint:** Private connection to AWS services (no internet needed).
 
-NAT Gateway: Private subnet → internet (outbound only).
+* **VPC Peering** → Connect two VPCs so they can talk to each other.
 
-VPC Endpoint: Private connection to AWS services (no internet needed).
+* **Transit Gateway** → Central hub to connect multiple VPCs and networks.
 
-VPC Peering → Connect two VPCs so they can talk to each other.
+* **Traffic Mirroring** → Copy network traffic for monitoring/security.
 
-Transit Gateway → Central hub to connect multiple VPCs and networks.
+* **Flow Logs** → Logs all network traffic going in/out of your VPC (for troubleshooting & auditing).
 
-Traffic Mirroring → Copy network traffic for monitoring/security.
-
-Flow Logs → Logs all network traffic going in/out of your VPC (for troubleshooting & auditing).
-
-VPN Connection → Connect your AWS VPC to your on-premise network securely.
-
-## 📌 Example
-
-Imagine a house 🏠 (VPC):
-
-* **Rooms** = Subnets (organize resources)
-* **Doors** = Gateways (entry/exit to internet)
-* **Locks** = Security Groups/ACLs (who can enter/leave)
+* **VPN Connection** → Connect your AWS VPC to your **on-premise network** securely.
 
 ---
 
+## 💡 Quick Analogy (House Example 🏠)
+
+* **VPC** = Your house.
+* **Subnets** = Rooms in the house.
+* **Security Groups** = Door locks on each room.
+* **NACLs** = Fence rules around the property.
+* **Gateways** = Main gate to enter/exit house.
+* **Route Table** = Google Maps deciding which way traffic goes.
+
+<img width="611" height="481" alt="image" src="https://github.com/user-attachments/assets/1c83aa03-2dcb-4a11-a566-4570f42651b5" />
 
 
