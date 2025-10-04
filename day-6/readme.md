@@ -1,4 +1,3 @@
-Here’s a clear and structured **summary of Amazon Route 53** 👇
 
 ---
 
@@ -89,5 +88,6 @@ For `example.com` hosted on EC2:
 6. Apply routing policies or health checks as needed.
 
 ---
+
 
 
