@@ -20,6 +20,7 @@ Instead of clicking through the AWS Console, you can:
 
 ```bash
 aws --version
+./aws.exe --version
 ```
 
 Expected output:
