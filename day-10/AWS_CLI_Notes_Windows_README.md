@@ -46,7 +46,8 @@ aws --version  for linux
 Run once to set up credentials:
 
 ```bash
-aws configure
+aws configure                  for linux
+./exe.aws configure            for windows
 ```
 
 Prompts:
@@ -76,7 +77,8 @@ aws <service> <operation> [parameters]
 Example:
 
 ```bash
-aws s3 ls
+aws s3 ls                    for linux
+./aws.exe aws s3 ls          for windows
 ```
 
 ---
