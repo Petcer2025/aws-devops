@@ -19,8 +19,8 @@ Instead of clicking through the AWS Console, you can:
 3. Verify installation:
 
 ```bash
-aws --version
-./aws.exe --version
+aws --version    for linux 
+./aws.exe --version  for windows
 ```
 
 Expected output:
@@ -35,7 +35,8 @@ aws-cli/2.x.x Python/3.x.x Windows/10 exe/AMD64 prompt/off
 3. Test with:
 
 ```bash
-aws --version
+aws --version  for linux
+./aws.exe --version for windows
 ```
 
 ---
