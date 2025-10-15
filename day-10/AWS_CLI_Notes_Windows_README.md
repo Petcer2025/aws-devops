@@ -79,7 +79,7 @@ Example:
 
 ```bash
 aws s3 ls                    for linux
-./aws.exe aws s3 ls          for windows
+./aws.exe  s3 ls          for windows
 ```
 
 ---
