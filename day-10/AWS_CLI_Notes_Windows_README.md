@@ -48,7 +48,7 @@ Run once to set up credentials:
 
 ```bash
 aws configure                  for linux
-./exe.aws configure            for windows
+./aws.exe configure            for windows
 ```
 
 Prompts:
