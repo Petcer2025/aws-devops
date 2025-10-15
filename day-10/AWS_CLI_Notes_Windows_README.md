@@ -39,7 +39,7 @@ aws-cli/2.x.x Python/3.x.x Windows/10 exe/AMD64 prompt/off
 aws --version  for linux
 ./aws.exe --version for windows
 ```
-
+Before moving to next step, create an user iam
 ---
 
 ## ⚙️ 2. Configure AWS CLI
