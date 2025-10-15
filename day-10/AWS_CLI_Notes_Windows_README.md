@@ -15,8 +15,9 @@ Instead of clicking through the AWS Console, you can:
 
 ### Option 1: Official Installer (Recommended)
 1. Download from [AWS CLI official page](https://aws.amazon.com/cli/).
-2. Run the Windows MSI installer (64-bit).
-3. Verify installation:
+   https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+3. Run the Windows MSI installer (64-bit).
+4. Verify installation:
 
 ```bash
 aws --version    for linux 
