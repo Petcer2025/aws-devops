@@ -15,8 +15,9 @@ Instead of clicking through the AWS Console, you can:
 
 ### Option 1: Official Installer (Recommended)
 1. Download from [AWS CLI official page](https://aws.amazon.com/cli/).
-2. Run the Windows MSI installer (64-bit).
-3. Verify installation:
+   https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+3. Run the Windows MSI installer (64-bit).
+4. Verify installation:
 
 ```bash
 aws --version    for linux 
@@ -38,7 +39,7 @@ aws-cli/2.x.x Python/3.x.x Windows/10 exe/AMD64 prompt/off
 aws --version  for linux
 ./aws.exe --version for windows
 ```
-
+Before moving to next step, create an user iam
 ---
 
 ## ⚙️ 2. Configure AWS CLI
@@ -47,7 +48,7 @@ Run once to set up credentials:
 
 ```bash
 aws configure                  for linux
-./exe.aws configure            for windows
+./aws.exe configure            for windows
 ```
 
 Prompts:
@@ -78,7 +79,7 @@ Example:
 
 ```bash
 aws s3 ls                    for linux
-./aws.exe aws s3 ls          for windows
+./aws.exe  s3 ls          for windows
 ```
 
 ---
