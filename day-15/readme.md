@@ -1,8 +1,5 @@
 # 🚀 AWS CodeDeploy (CD – Continuous Deployment)
 
-Welcome back to our **"30 Days AWS Zero to Hero"** series.  
-Today on **Day 17**, we’ll explore **AWS CodeDeploy**, an essential part of AWS DevOps and CI/CD automation.
-
 ---
 
 ## 🧠 What is AWS CodeDeploy?
