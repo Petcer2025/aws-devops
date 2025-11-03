@@ -1,4 +1,18 @@
+What is VPC in AWS?
+Amazon Virtual Private Cloud (VPC) is a service that allows you to launch AWS resources in a logically isolated virtual network that you define. This virtual network closely resembles a traditional network that you would operate in your own data center, with the benefits of using the scalable infrastructure of AWS.
 
+Key Features of Amazon VPC
+Virtual Private Clouds (VPCs)
+A VPC is a virtual network that you can customize to meet your specific needs. You can add subnets, assign IP addresses, and configure route tables and gateways.
+
+Subnets
+A subnet is a range of IP addresses within your VPC. Each subnet must reside in a single Availability Zone. You can deploy AWS resources, such as EC2 instances, within these subnets.
+
+IP Addressing
+You can assign both IPv4 and IPv6 addresses to your VPCs and subnets. You can also bring your own public IPv4 addresses and allocate them to resources in your VPC.
+
+Routing
+Route tables determine where network traffic from your subnet or gateway is directed. You can create custom route tables to control the flow of traffic within your VPC
 # 🌐 **AWS VPC (Virtual Private Cloud) – Simple Notes**
 
 * **VPC = Your own private network inside AWS cloud.**
